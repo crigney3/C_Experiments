@@ -15,6 +15,15 @@ Over the period of this year, I hope to use this repo to teach myself **C/C++** 
         1. Variables, Conditionals, Loops, and Arrays
         2. #define, #include
         3. sizeof();
+1. Structs, Pointers, and Collision
+    1. Purpose:
+        1. Teach myself structs (relating them to objects in OOP)
+        2. Learn the basics of pointer access and dereferencing
+        3. Do basic collision detection between rectangle structs
+    2. New Skils:
+        1. printf % arguments
+        2. void functions using pointers to modify global variables
+        3. printing pointers, accessing variable values from only pointers
      
 #### Project Markdown Template      
      
