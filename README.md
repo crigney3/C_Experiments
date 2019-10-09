@@ -24,6 +24,13 @@ Over the period of this year, I hope to use this repo to teach myself **C/C++** 
         1. printf % arguments
         2. void functions using pointers to modify global variables
         3. printing pointers, accessing variable values from only pointers
+1. Memory allocation, circle collision, and freeing
+    1. Purpose:
+        1. Learn manual memory allocation to make future programs maximally efficient
+        2. Create a generic circle collider that frees all unnecessary variables once done checking
+    2. New Skils:
+        1. malloc, more pointer skills, free
+        2. Circle collision
      
 #### Project Markdown Template      
      
