@@ -4,6 +4,8 @@
 
 Over the period of this year, I hope to use this repo to teach myself **C/C++** (mostly **C**) and use it to challenge myself and grow my skillset!
 
+*Side not as I'm just noticing it now: Visual Studio builds my files into .cpp files, which is way the repo claims to be C++. At the point of writing this (Project 3), all my code is in C.*
+
 #### Project Index
 
 -----
