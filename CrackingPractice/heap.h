@@ -12,15 +12,16 @@ typedef struct {
 	hNode *root;
 } maxHeap;
 
-int heapifyMin();
-int heapifyMax();
+int heapifyMin(minHeap h);
+int heapifyMax(maxHeap h);
 int heapPush(int val);
 
-int heapifyMin(){
+int heapifyMin(minHeap h){
+	
 	return 1;
 }
 
-int heapifyMax(){
+int heapifyMax(maxHeap h){
 	return 1;
 }
 
