@@ -20,8 +20,8 @@ int main(){
     test[6] = 100;
     test[7] = 101;
     test[8] = 103;
-    test[9] = 104;
-    int val = 5;
+    
+    int val = 8;
     int* location = binarySearch(test, 0, 9, val);
     if(location) printf("  Found %d at %d  ", val, *location);
 	return 0;
@@ -38,8 +38,15 @@ void mergeSort(int array[], int start, int end){
 }
 
 int* binarySearch(int array[], int left, int right, int val){
+    /*if(left == right){
+        printf("Search Failed");
+        int* fail;
+        fail = malloc(-1);
+        return fail;
+    }*/
+
     int m = (left + right)/2;
-    printf("  %d  ", array[m]);
+    
     if(array[m] == val) return &m;
 
     if(val < array[m]) return binarySearch(array, left, m - 1, val);
